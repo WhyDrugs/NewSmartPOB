@@ -22,7 +22,7 @@ function calcAlu(ciclo, hora, dwt, calado, tipo, amp) {
     }
 
     // Regra 2
-    if (calado > 7 && calado <= 11.58 && dwt <= 84000 && ciclo == BM) {
+    if (calado > 7 && calado <= 11.58 && dwt <= 84000 && ciclo == BM) { 
       // alert Hora Invalida
     }
 
