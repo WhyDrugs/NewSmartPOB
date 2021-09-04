@@ -11,7 +11,7 @@ function calcAlu(ciclo, hora, dwt, calado, tipo, amp) {
     
     */
 
-  //Passou tudo pra segundo
+  //Passou tudo pra minuto
   //Recebeu [0] mult por 60 pra dar em minutos e o [1], manteve em minutos
   hora = parseInt(hora.split(":")[1]) + parseInt(hora.split(":")[0]) * 60;
 
